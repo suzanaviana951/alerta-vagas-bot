@@ -2,7 +2,7 @@ name: Executar bot a cada 1 hora
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Executa a cada 1 hora
+    - cron: '0 * * * *'  # A cada 1 hora
   workflow_dispatch:
 
 jobs:
@@ -23,5 +23,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Executar o bot
+      - name: Executar bot
         run: python main.py
