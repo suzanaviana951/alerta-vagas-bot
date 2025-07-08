@@ -74,7 +74,7 @@ def buscar_vagas():
             print(f"❌ Erro ao buscar vagas em {empresa}: {e}")
 
     if vagas_encontradas == 0:
-        print("🔍 Nenhuma vaga encontrada no momento.")
+        print("✅ Bot executado com sucesso, mas nenhuma vaga relevante foi encontrada.")
 
 if __name__ == "__main__":
     buscar_vagas()
